@@ -21,6 +21,10 @@ a{
     margin-left: -490px;
 }
 
+.apple{
+    background-image: url(/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.svg);
+}
+
 .content-wrapper{
     width: 1440px;
     margin: 0 auto;
