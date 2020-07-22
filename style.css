@@ -19,6 +19,8 @@ a{
     z-index: 9998;
     left: 50%;
     margin-left: -490px;
+    background-image: linear-gradient(to bottom,#626262 50%, #767676 10%);  
+    border-radius: 5px;
 }
 
 .content-wrapper{
