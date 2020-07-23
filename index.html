@@ -2,21 +2,66 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device.width">
+        <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" type="text/css" href="reset.css">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://kit.fontawesome.com/0007bfca3c.js" crossorigin="anonymous"></script>
         <title>Apple</title>
     </head>
-    <nav class="nav-wrapper">
-        <ul>
-            <li>
-                <a>
-                    <span class="apple">Apple</span>
+    <body>
+        <nav class="nav-wrapper">
+        <ul class="navbar">
+            <li class="nav-text"> 
+                <a class="nav-link">
+                    <span class="apple">
+                        <i class="fab fa-apple fa-2x"></i>
+                    </span>
+                </a>
+            </li>
+            <li class="nav-text"> 
+                <a class="nav-link">
+                    <span class="text">Store</span>
+                </a>
+            </li>
+            <li class="nav-text"> 
+                <a class="nav-link">
+                    <span class="text">Mac</span>
+                </a>
+            </li>
+            <li class="nav-text"> 
+                <a class="nav-link">
+                    <span class="text">iPod</span>
+                </a>
+            </li>
+            <li class="nav-text"> 
+                <a class="nav-link">
+                    <span class="text">iPhone</span>
+                </a>
+            </li>
+            <li class="nav-text"> 
+                <a class="nav-link">
+                    <span class="text">iPad</span>
+                </a>
+            </li>
+            <li class="nav-text"> 
+                <a class="nav-link">
+                    <span class="text">itunes</span>
+                </a>
+            </li>
+            <li class="nav-text"> 
+                <a class="nav-link">
+                    <span class="text">Support</span>
                 </a>
             </li>
         </ul>
-    </nav>
-    <body>
+        <div class="searchbox-wrapper">
+            <form class="form-container">
+                <div class="searchbox-container">
+                    <input type="text" name="searchbox" id="searchbox">
+                </div>
+            </form>
+        </div>
+        </nav>
         <main>
             <section class="content-wrapper">
                 <div class="grid-wrapper">
@@ -36,7 +81,7 @@
                                     </a>
                                 </h2>
                                 <div class="watch-now">
-                                    <a>
+                                    <a class="watch-link">
                                         <img class="head-img3" src="https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/cta_your_verse_27pt.png" alt="Watch the “Your Verse” film and explore the stories"/>
                                     </a>
                                 </div>
@@ -67,7 +112,8 @@
             </section>
         </main>
         <footer class="footer-wrapper">
-            <div class="footer-container">
+            <div class="content-wrapper">
+                <div class="footer-container">
                 <p class="left">
                     Shop the
                     <a href="https://web.archive.org/web/20140301004610/http://store.apple.com/us">Apple Online Store</a>
@@ -101,13 +147,13 @@
                     </li>
                     <li class="worldwide">
                         <a href="/web/20140301004610/http://www.apple.com/choose-your-country/">
-                            <img src="https://web.archive.org/web/20140301004610im_/http://images.apple.com/global/elements/flags/16x16/usa.png" alt="Choose your country or region" height="16" width="16">
+                            <img class="worldwide-image" src="https://web.archive.org/web/20140301004610im_/http://images.apple.com/global/elements/flags/16x16/usa.png" alt="Choose your country or region" height="16" width="16">
                         </a>
                     </li>
                 </ul>
-                <div>
+                <div class="copyright-container">
                     <p class="copyright">Copyright © 2014 Apple Inc. All rights reserved.</p>
-                    <ul class="piped">
+                    <ul class="rights">
                         <li class="first">
                             <a href="/web/20140301004610/http://www.apple.com/legal/">Terms of Use</a>
                         </li>
@@ -115,6 +161,7 @@
                             <a href="/web/20140301004610/http://www.apple.com/legal/privacy/">Privacy Policy</a>
                         </li>
                     </ul>
+                </div>
                 </div>
             </div>
         </footer>
