@@ -31,7 +31,7 @@ and thats it.
 
 ## Authors
 
-👤 **Author1**
+👤 **Juan Luis Gonzalez**
 
 - Github: [@githubhandle](https://github.com/JbirdL86)
 - Twitter: [@twitterhandle](https://twitter.com/JuanLui06498455)
