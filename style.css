@@ -24,7 +24,7 @@ a {
   font-size: 12px;
   line-height: 18px;
   font-family: "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-  background: -webkit-gradient(linear, 0 100%, 0 0, from(#6e6e6e), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#737373));
+  background-image: linear-gradient(to bottom, #676767, #676767 50%, #828282 50%, #828282);
   margin-top: 18px;
 }
 
@@ -42,6 +42,11 @@ a {
   border-style: solid;
   overflow: hidden;
   border-color: #5c5c5c;
+}
+
+.nav-link:hover {
+  background-color: #393939;
+  opacity: 0.7;
 }
 
 .nav-wrapper,
